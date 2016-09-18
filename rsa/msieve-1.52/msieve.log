@@ -1,0 +1,180 @@
+Thu Jan  7 21:07:00 2016  
+Thu Jan  7 21:07:00 2016  
+Thu Jan  7 21:07:00 2016  Msieve v. 1.52 (SVN unknown)
+Thu Jan  7 21:07:00 2016  random seeds: 3ab80a31 674892a0
+Thu Jan  7 21:07:00 2016  factoring 614010459838253953596498114943057697842675637887066261109163514805589167 (72 digits)
+Thu Jan  7 21:07:00 2016  no P-1/P+1/ECM available, skipping
+Thu Jan  7 21:07:00 2016  commencing quadratic sieve (72-digit input)
+Thu Jan  7 21:07:00 2016  using multiplier of 23
+Thu Jan  7 21:07:00 2016  using generic 32kb sieve core
+Thu Jan  7 21:07:00 2016  sieve interval: 12 blocks of size 32768
+Thu Jan  7 21:07:00 2016  processing polynomials in batches of 17
+Thu Jan  7 21:07:00 2016  using a sieve bound of 382751 (16375 primes)
+Thu Jan  7 21:07:00 2016  using large prime bound of 38275100 (25 bits)
+Thu Jan  7 21:07:00 2016  using trial factoring cutoff of 25 bits
+Thu Jan  7 21:07:00 2016  polynomial 'A' values have 9 factors
+Thu Jan  7 21:07:31 2016  7803 relations (4767 full + 3036 combined from 52165 partial), need 16471
+Thu Jan  7 21:07:31 2016  elapsed time 00:00:31
+Tue Mar  8 19:02:07 2016  
+Tue Mar  8 19:02:07 2016  
+Tue Mar  8 19:02:07 2016  Msieve v. 1.52 (SVN unknown)
+Tue Mar  8 19:02:07 2016  random seeds: ffa276b0 e6706489
+Tue Mar  8 19:02:07 2016  factoring 94738740796943840961823530695778701408987757287583492665919730017973847138345511139064596113422435977583856843887008168202003855906708039013487349390571801141407245039011598810542232029634564848797998534872251549660454277336502838185642937637576121533945369150901808833844341421315429263207612372324026271327 (308 digits)
+Tue Mar  8 19:02:09 2016  no P-1/P+1/ECM available, skipping
+Tue Mar  8 19:02:09 2016  commencing quadratic sieve (308-digit input)
+Tue Mar  8 19:02:11 2016  using multiplier of 1
+Tue Mar  8 19:02:11 2016  using generic 32kb sieve core
+Tue Mar  8 19:02:11 2016  sieve interval: 400 blocks of size 32768
+Tue Mar  8 19:02:11 2016  processing polynomials in batches of 1
+Tue Mar  8 19:02:11 2016  using a sieve bound of 42921973 (1298824 primes)
+Tue Mar  8 19:02:11 2016  using large prime bound of 4294967295 (31 bits)
+Tue Mar  8 19:02:11 2016  using double large prime bound of 218437776016143360 (51-58 bits)
+Tue Mar  8 19:02:11 2016  using trial factoring cutoff of 58 bits
+Tue Mar  8 19:02:11 2016  fatal error: poly selection failed
+Tue Mar  8 19:05:30 2016  
+Tue Mar  8 19:05:30 2016  
+Tue Mar  8 19:05:30 2016  Msieve v. 1.52 (SVN unknown)
+Tue Mar  8 19:05:30 2016  random seeds: 1c3caaee f0281afb
+Tue Mar  8 19:05:30 2016  factoring 123 (3 digits)
+Tue Mar  8 19:05:30 2016  p1 factor: 3
+Tue Mar  8 19:05:30 2016  p2 factor: 41
+Tue Mar  8 19:05:30 2016  elapsed time 00:00:00
+Tue Mar  8 19:29:45 2016  
+Tue Mar  8 19:29:45 2016  
+Tue Mar  8 19:29:45 2016  Msieve v. 1.52 (SVN unknown)
+Tue Mar  8 19:29:45 2016  random seeds: 5d7d608d 1ac408b4
+Tue Mar  8 19:29:45 2016  factoring 123 (3 digits)
+Tue Mar  8 19:29:45 2016  p1 factor: 3
+Tue Mar  8 19:29:45 2016  p2 factor: 41
+Tue Mar  8 19:29:45 2016  elapsed time 00:00:00
+Tue Mar  8 19:29:52 2016  
+Tue Mar  8 19:29:52 2016  
+Tue Mar  8 19:29:52 2016  Msieve v. 1.52 (SVN unknown)
+Tue Mar  8 19:29:52 2016  random seeds: e0a8977f e5b1054e
+Tue Mar  8 19:29:52 2016  factoring 4 (1 digits)
+Tue Mar  8 19:29:52 2016  p1 factor: 2
+Tue Mar  8 19:29:52 2016  p1 factor: 2
+Tue Mar  8 19:29:52 2016  elapsed time 00:00:00
+Tue Mar  8 19:29:57 2016  
+Tue Mar  8 19:29:57 2016  
+Tue Mar  8 19:29:57 2016  Msieve v. 1.52 (SVN unknown)
+Tue Mar  8 19:29:57 2016  random seeds: 3fcc2cd5 739e1b6d
+Tue Mar  8 19:29:57 2016  factoring 6 (1 digits)
+Tue Mar  8 19:29:57 2016  p1 factor: 2
+Tue Mar  8 19:29:57 2016  p1 factor: 3
+Tue Mar  8 19:29:57 2016  elapsed time 00:00:00
+Tue Mar  8 19:34:03 2016  
+Tue Mar  8 19:34:03 2016  
+Tue Mar  8 19:34:03 2016  Msieve v. 1.52 (SVN unknown)
+Tue Mar  8 19:34:03 2016  random seeds: a157a35b 84787ac1
+Tue Mar  8 19:34:03 2016  factoring 6 (1 digits)
+Tue Mar  8 19:34:03 2016  p1 factor: 2
+Tue Mar  8 19:34:03 2016  p1 factor: 3
+Tue Mar  8 19:34:03 2016  elapsed time 00:00:00
+Tue Mar  8 19:35:00 2016  
+Tue Mar  8 19:35:00 2016  
+Tue Mar  8 19:35:00 2016  Msieve v. 1.52 (SVN unknown)
+Tue Mar  8 19:35:00 2016  random seeds: 0c0862f6 26e0f455
+Tue Mar  8 19:35:00 2016  factoring 94738740796943840961823530695778701408987757287583492665919730017973847138345511139064596113422435977583856843887008168202003855906708039013487349390571801141407245039011598810542232029634564848797998534872251549660454277336502838185642937637576121533945369150901808833844341421315429263207612372324026271327 (308 digits)
+Tue Mar  8 19:35:02 2016  no P-1/P+1/ECM available, skipping
+Tue Mar  8 19:35:02 2016  commencing quadratic sieve (308-digit input)
+Tue Mar  8 19:35:04 2016  using multiplier of 1
+Tue Mar  8 19:35:04 2016  using generic 32kb sieve core
+Tue Mar  8 19:35:04 2016  sieve interval: 400 blocks of size 32768
+Tue Mar  8 19:35:04 2016  processing polynomials in batches of 1
+Tue Mar  8 19:35:04 2016  using a sieve bound of 42921973 (1298824 primes)
+Tue Mar  8 19:35:04 2016  using large prime bound of 4294967295 (31 bits)
+Tue Mar  8 19:35:04 2016  using double large prime bound of 218437776016143360 (51-58 bits)
+Tue Mar  8 19:35:04 2016  using trial factoring cutoff of 58 bits
+Tue Mar  8 19:35:04 2016  fatal error: poly selection failed
+Sun Apr 17 01:36:03 2016  
+Sun Apr 17 01:36:03 2016  
+Sun Apr 17 01:36:03 2016  Msieve v. 1.52 (SVN unknown)
+Sun Apr 17 01:36:03 2016  random seeds: 2226c6d1 3dee7eb1
+Sun Apr 17 01:36:03 2016  factoring 6 (1 digits)
+Sun Apr 17 01:36:03 2016  p1 factor: 2
+Sun Apr 17 01:36:03 2016  p1 factor: 3
+Sun Apr 17 01:36:03 2016  elapsed time 00:00:00
+Sun Apr 17 18:47:57 2016  
+Sun Apr 17 18:47:57 2016  
+Sun Apr 17 18:47:57 2016  Msieve v. 1.52 (SVN unknown)
+Sun Apr 17 18:47:57 2016  random seeds: b1b0cc09 70f73533
+Sun Apr 17 18:47:57 2016  factoring 10 (2 digits)
+Sun Apr 17 18:47:57 2016  p1 factor: 2
+Sun Apr 17 18:47:57 2016  p1 factor: 5
+Sun Apr 17 18:47:57 2016  elapsed time 00:00:00
+Sat Sep 17 14:13:37 2016  
+Sat Sep 17 14:13:37 2016  
+Sat Sep 17 14:13:37 2016  Msieve v. 1.52 (SVN unknown)
+Sat Sep 17 14:13:37 2016  random seeds: e9252ef9 3ff335ec
+Sat Sep 17 14:13:37 2016  factoring 172794691472052891606123026873804908828041669691609575879218839103312725575539274510146072314972595103514205266417760425399021924101213043476074946787797027000946594352073829975780001500365774553488470967261307428366461433441594196630494834260653022238045540839300190444686046016894356383749066966416917513737 (309 digits)
+Sat Sep 17 14:13:40 2016  no P-1/P+1/ECM available, skipping
+Sat Sep 17 14:13:40 2016  commencing quadratic sieve (309-digit input)
+Sat Sep 17 14:13:42 2016  using multiplier of 1
+Sat Sep 17 14:13:42 2016  using generic 32kb sieve core
+Sat Sep 17 14:13:42 2016  sieve interval: 400 blocks of size 32768
+Sat Sep 17 14:13:42 2016  processing polynomials in batches of 1
+Sat Sep 17 14:13:42 2016  using a sieve bound of 42921971 (1299971 primes)
+Sat Sep 17 14:13:42 2016  using large prime bound of 4294967295 (31 bits)
+Sat Sep 17 14:13:42 2016  using double large prime bound of 218437776016143360 (51-58 bits)
+Sat Sep 17 14:13:42 2016  using trial factoring cutoff of 58 bits
+Sat Sep 17 14:13:42 2016  fatal error: poly selection failed
+Sat Sep 17 14:14:00 2016  
+Sat Sep 17 14:14:00 2016  
+Sat Sep 17 14:14:00 2016  Msieve v. 1.52 (SVN unknown)
+Sat Sep 17 14:14:00 2016  random seeds: 31f17a58 4247a12e
+Sat Sep 17 14:14:00 2016  factoring 172794691472052891606123026873804908828041669691609575879218839103312725575539274510146072314972595103514205266417760425399021924101213043476074946787797027000946594352073829975780001500365774553488470967261307428366461433441594196630494834260653022238045540839300190444686046016894356383749066966416917513738 (309 digits)
+Sat Sep 17 14:14:03 2016  no P-1/P+1/ECM available, skipping
+Sat Sep 17 14:14:03 2016  commencing quadratic sieve (307-digit input)
+Sat Sep 17 14:14:05 2016  using multiplier of 1
+Sat Sep 17 14:14:05 2016  using generic 32kb sieve core
+Sat Sep 17 14:14:05 2016  sieve interval: 400 blocks of size 32768
+Sat Sep 17 14:14:05 2016  processing polynomials in batches of 1
+Sat Sep 17 14:14:05 2016  using a sieve bound of 42911977 (1300000 primes)
+Sat Sep 17 14:14:05 2016  using large prime bound of 4294967295 (31 bits)
+Sat Sep 17 14:14:05 2016  using double large prime bound of 218437776016143360 (51-58 bits)
+Sat Sep 17 14:14:05 2016  using trial factoring cutoff of 58 bits
+Sat Sep 17 14:14:05 2016  fatal error: poly selection failed
+Sat Sep 17 14:14:20 2016  
+Sat Sep 17 14:14:20 2016  
+Sat Sep 17 14:14:20 2016  Msieve v. 1.52 (SVN unknown)
+Sat Sep 17 14:14:20 2016  random seeds: 0c99f8a6 f8143221
+Sat Sep 17 14:14:20 2016  factoring 95743639846435911282201623368817149970231530745600716013851051418596093791193 (77 digits)
+Sat Sep 17 14:14:21 2016  no P-1/P+1/ECM available, skipping
+Sat Sep 17 14:14:21 2016  commencing quadratic sieve (77-digit input)
+Sat Sep 17 14:14:21 2016  using multiplier of 1
+Sat Sep 17 14:14:21 2016  using generic 32kb sieve core
+Sat Sep 17 14:14:21 2016  sieve interval: 12 blocks of size 32768
+Sat Sep 17 14:14:21 2016  processing polynomials in batches of 17
+Sat Sep 17 14:14:21 2016  using a sieve bound of 923341 (36471 primes)
+Sat Sep 17 14:14:21 2016  using large prime bound of 92334100 (26 bits)
+Sat Sep 17 14:14:21 2016  using trial factoring cutoff of 26 bits
+Sat Sep 17 14:14:21 2016  polynomial 'A' values have 10 factors
+Sat Sep 17 14:16:55 2016  36863 relations (19248 full + 17615 combined from 195280 partial), need 36567
+Sat Sep 17 14:16:55 2016  begin with 214528 relations
+Sat Sep 17 14:16:55 2016  reduce to 52231 relations in 2 passes
+Sat Sep 17 14:16:55 2016  attempting to read 52231 relations
+Sat Sep 17 14:16:55 2016  recovered 52231 relations
+Sat Sep 17 14:16:55 2016  recovered 39909 polynomials
+Sat Sep 17 14:16:55 2016  attempting to build 36863 cycles
+Sat Sep 17 14:16:55 2016  found 36863 cycles in 1 passes
+Sat Sep 17 14:16:55 2016  distribution of cycle lengths:
+Sat Sep 17 14:16:55 2016     length 1 : 19248
+Sat Sep 17 14:16:55 2016     length 2 : 17615
+Sat Sep 17 14:16:55 2016  largest cycle: 2 relations
+Sat Sep 17 14:16:55 2016  matrix is 36471 x 36863 (5.3 MB) with weight 1093364 (29.66/col)
+Sat Sep 17 14:16:55 2016  sparse part has weight 1093364 (29.66/col)
+Sat Sep 17 14:16:55 2016  filtering completed in 3 passes
+Sat Sep 17 14:16:55 2016  matrix is 25608 x 25672 (4.0 MB) with weight 849275 (33.08/col)
+Sat Sep 17 14:16:55 2016  sparse part has weight 849275 (33.08/col)
+Sat Sep 17 14:16:55 2016  saving the first 48 matrix rows for later
+Sat Sep 17 14:16:55 2016  matrix includes 64 packed rows
+Sat Sep 17 14:16:55 2016  matrix is 25560 x 25672 (2.7 MB) with weight 621582 (24.21/col)
+Sat Sep 17 14:16:55 2016  sparse part has weight 441663 (17.20/col)
+Sat Sep 17 14:16:55 2016  commencing Lanczos iteration
+Sat Sep 17 14:16:55 2016  memory use: 2.7 MB
+Sat Sep 17 14:17:03 2016  lanczos halted after 405 iterations (dim = 25555)
+Sat Sep 17 14:17:03 2016  recovered 14 nontrivial dependencies
+Sat Sep 17 14:17:03 2016  prp39 factor: 295067566530689955169650537538641733517
+Sat Sep 17 14:17:03 2016  prp39 factor: 324480392650940924672294142667097877629
+Sat Sep 17 14:17:03 2016  elapsed time 00:02:43

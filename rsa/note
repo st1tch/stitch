@@ -1,0 +1,22 @@
+privatekey가 작을때 RSAwienerAttack이 가능.
+툴을 이용해 publickey의 N,e,d를 구하고 N의 p,q를 구한다.
+N,e,d,p,q가 있으면 privatekey(pem)생성가능(p,q,e만 있어도 rsatool으로 생성가능)
+즉, 공개키가 있는 경우 rsatool이나 wienerAttack을 이용해 개인키 만들 수 있음.
+e가 n과 비슷하거나 크면 wienerAttack
+q,p가 작으면 key가 취약해서 ctfrsatool가능
+
+안될경우, d를 수정하거나 다른값 수정해서 다시 개인키 생성.
+d′:=d mod lcm(p−1,q−1)
+
+ssh -i 옵션을 이용해 ssh에 접근하는 key로 이용가능하다.
+
+openssl rsa -pubin -inform PEM -text -noout -in key.public -> n,e구함::
+
+cat flag.enc | base64 -d | openssl rsautl -inkey private.pem -decrypt -oaep -> enc decode
+
+RSA modulus (n).
+Public exponent (e).
+Private exponent (d). Only required if the key is private.
+First factor of n (p). Optional.
+Second factor of n (q). Optional.
+CRT coefficient, (1/p) mod q (u). Optional.

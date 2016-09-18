@@ -1,0 +1,5 @@
+
+
+openssl rsa -pubin -in file.pub -text -modulus
+
+openssl rsautl -inkey priv1.key -decrypt -raw -in ../file.enc
