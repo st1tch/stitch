@@ -1,4 +1,4 @@
-
+'''
 from pwn import *
 
 s = ssh('user', 'addr', password='', port=1234)
@@ -23,7 +23,9 @@ log.success('Hello, world!')
 p = log.progress('Working')
 p.status('Reticulating splines')
 p.success('Got a shell!')
+'''
 
+'''
 _msgtype_prefixes = { 
     'status'       : [text.magenta, 'x'],
     'success'      : [text.bold_green, '+'],
@@ -37,4 +39,12 @@ _msgtype_prefixes = {
     'info_once'    : [text.bold_blue, '*'],
     'warning_once' : [text.bold_yellow, '!'],
     }  
+'''
 
+
+'''
+tmp = process(['python', './a.py', passwd]).recvall().strip()
+==
+p = subprocess.Popen(['python', 'a.py', passwd], stdout=subprocess.PIPE)
+tmp = p.stdout.readline().strip()
+'''

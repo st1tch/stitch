@@ -2,10 +2,15 @@
 import string
 import os
 import struct
+import sys
 from pwn import *
 
 #modify libc path
-path = '/home/stitch/uk/libc/'
+if 'Apple' in sys.version :
+    path = '/Users/kimtae/stitch/libc/'
+else :
+    path = '/home/stitch/stitch/libc/'
+
 printable = string.printable[:-6]
 msg = ''
 p32 = lambda x : struct.pack('<I', x)

