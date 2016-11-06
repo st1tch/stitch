@@ -24,7 +24,10 @@ p = log.progress('Working')
 p.status('Reticulating splines')
 p.success('Got a shell!')
 '''
-
+elf = ELF('')
+libc = ELF('')
+elf.got[''], elf.plt['']
+libc.symbols['']
 '''
 _msgtype_prefixes = { 
     'status'       : [text.magenta, 'x'],
