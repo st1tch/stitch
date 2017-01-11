@@ -28,6 +28,7 @@ elf = ELF('')
 libc = ELF('')
 elf.got[''], elf.plt['']
 libc.symbols['']
+offset + list(libc.search('/bin/sh'))[0]
 '''
 _msgtype_prefixes = { 
     'status'       : [text.magenta, 'x'],
