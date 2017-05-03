@@ -31,6 +31,7 @@ m = s.model()
 
 #1 (rand sequence)
 for d in m.decls() :
+        print d
 	print d.name(), m[d]
 
 #2 (in regular sequence)

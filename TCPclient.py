@@ -51,3 +51,39 @@ class TCPClient():
 
     def close(self):
         self.sock.close()
+
+
+def readline(sc, show = True):
+    res = ""
+    while len(res) == 0 or res[-1] != "\n":
+        data = sc.recv(1)
+        if len(data) == 0:
+            print repr(res)
+            raise Exception("Server disconnected")
+        res += data
+        
+    if show:
+        print repr(res[:-1])
+    return res[:-1]
+
+def read_until(sc, s):
+    res = ""
+    while not res.endswith(s):
+        data = sc.recv(1)
+        if len(data) == 0:
+            print repr(res)
+            raise Exception("Server disconnected")
+        res += data
+        
+    return res[:-(len(s))]
+    
+def read_all(sc, n):
+    data = ""
+    while len(data) < n:
+        block = sc.recv(n - len(data))
+        if len(block) == 0:
+            print repr(data)
+            raise Exception("Server disconnected")
+        data += block
+
+    return data

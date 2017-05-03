@@ -10,7 +10,7 @@ def db_recv2(conn, query, *args):
     conn.execute(query.format(*list(args)))
     return conn.fetchall()
 
-db_conn1 = pymysql.connect(host='kimtae.xyz', port=23306, user='stitch', password='stitch1004', db='ladybug_db', charset='utf8')
+db_conn1 = pymysql.connect(host='', port=, user='userid', password='password', db='db_name', charset='utf8')
 db1 = db_conn1.cursor(pymysql.cursors.DictCursor)
 
 category = []

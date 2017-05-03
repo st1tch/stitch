@@ -1,4 +1,4 @@
-privatekey가 작을때 RSAwienerAttack이 가능.
+privatekey d 가 작을때 RSAwienerAttack이 가능.
 툴을 이용해 publickey의 N,e,d를 구하고 N의 p,q를 구한다.
 N,e,d,p,q가 있으면 privatekey(pem)생성가능(p,q,e만 있어도 rsatool으로 생성가능)
 즉, 공개키가 있는 경우 rsatool이나 wienerAttack을 이용해 개인키 만들 수 있음.

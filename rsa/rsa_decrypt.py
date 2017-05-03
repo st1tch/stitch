@@ -1,22 +1,23 @@
+'''
 #n, p, q, phi, d, e
 #select prime number p, q
-#n = p*q 
-#select e,  n,e is coprime
-#phi(n) = (p-1)*(q-1)
-#de = 1mod(phi(n))
-#(n,e) is public key
-#d is private key
+n = p*q
+select e,  n,e is coprime
+phi(n) = (p-1)*(q-1)
+de = 1mod(phi(n))
+(n,e) is public key
+d is private key
 
 #encryption
-#message = m
-#c = pow(m, e, n)
+message = m
+c = pow(m, e, n)
 
 #decryption
-#message = pow(c, d, n)
+message = pow(c, d, n)
 
 #---bash---
-#msieve -q n -> find p, q
-
+msieve -q n -> find p, q
+'''
 #decryption ( c, n, d)
 def readable(c) :
     m = hex(c).replace('0x','')
