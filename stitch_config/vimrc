@@ -1,0 +1,34 @@
+"mkdir ~/.vim ; ln -s /usr/share/vim/vim74/colors ~/.vim/ ; ln -s /usr/share/vim/vim74/syntax ~/.vim/
+syntax on
+color dracula
+filetype indent plugin on
+
+let python_version_2 = 1
+
+set nu
+set ts=4
+set sw=4
+set hlsearch
+set cindent
+set autoindent
+set smartindent
+set autowrite
+set autoread
+
+map <F1> b
+map <F2> e
+map <F3> ^
+map <F4> $
+map <F7> :%!xxd<CR>
+map <F8> :%!xxd -r<CR>
+map , <c-u>
+map . <c-d>
+
+set t_Co=256
+
+"colorscheme molokai-dark
+"colorscheme torte
+au BufReadPost *
+\ if line("'\"") > 0 && line("'\"") <= line("$") |
+\   exe "norm g`\"" |
+\ endif
